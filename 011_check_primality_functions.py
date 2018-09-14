@@ -2,6 +2,7 @@
 (For those who have forgotten, a prime number is a number that has no divisors.).
 You can (and should!) use your answer to Exercise 4 to help you."""
 
+# This generates prime numbers as well
 import math
 
 def is_prime(number):
