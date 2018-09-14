@@ -8,9 +8,12 @@ Rock beats scissors
 Scissors beats paper
 Paper beats rock"""
 
+#it is probably better to assign numbers to hands and check the difference
 while True:
     hand_1 = input("Player 1, your hand is? ")
     hand_2 = input("Player 2, your hand is? ")
+    if hand_1 == hand_2:
+        print("It is a tie!")
     if (hand_1 == "rock" and hand_2 == "scissors") or (hand_1 == "scissors" and hand_2 == "paper") or (hand_1 == "paper" and hand_2 == "rock"):
         print("Player 1 wins")
     else:
